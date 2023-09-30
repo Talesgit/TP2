@@ -1,0 +1,37 @@
+void mostrar(celula i){
+   if(i != null){ 
+   sop("[");
+   System.out.println(i.prox);
+   sop("]");
+   mostrar(i.prox);
+   }
+   // celula prox = i.prox;
+   // i = prox;
+   // mostrar(prox);
+}
+
+
+
+implemente um método recursivo, para mostrar os elementos da pilha na ordem em que foram inseridos.
+
+void mostrarOrdem(celula i){
+   if(i != null){
+      mostrar(i.prox);
+      sop(i.elemento);      
+   }
+
+}
+
+repita o anterior de forma iterativa, dica: use duas estruturas de for, cada uma com um ponteiro
+
+-Questao da segunda prova, terá duas estruturas de for: parecido com esse exercício
+
+void mostrarOrdemIt()
+
+}
+
+
+-Na fila, usamos uma célula de nó cabeça para economizar um if em nosso inserir. No exercício 3 dos slides, vamos implementar a fila sem nó cabeça. No exercício 4, a pilha com nó cabeça. O inserir do exercício 3 terá um if a mais. O nó cabeça do exercício 4, será inútil.
+
+Na fila, o ponteiro útilmo gerencia inserções e, o primeiro, remoções.
+
