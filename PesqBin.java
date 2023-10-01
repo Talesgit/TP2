@@ -191,10 +191,6 @@ class Jogador {
             e.printStackTrace();
         }
     }
-
-    public static void main(String[] args) {
-
-    }
 }
 
 class PesqBin extends Jogador {
